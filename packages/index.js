@@ -1,7 +1,9 @@
 import Card from './card'
+import Dialog from './dialog'
 
 const components = {
   Card,
+  Dialog,
 }
 
 const install = function(Vue) {

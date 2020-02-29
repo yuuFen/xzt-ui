@@ -1,10 +1,10 @@
 import Vue from 'vue'
 import App from './App.vue'
 
-import yui from '../packages/index'
+import xztUi from '../packages/index'
 import '../packages/index.scss'
 
-Vue.use(yui)
+Vue.use(xztUi)
 
 Vue.config.productionTip = false
 

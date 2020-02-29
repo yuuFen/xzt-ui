@@ -1,8 +1,8 @@
 <template>
   <div id="app">
-    <yu-card
-      picture="https://nest-vue-uni-demo.oss-cn-shanghai.aliyuncs.com/1%20%2827%29.JPG"
-      name="Title"
+    <!-- <xzt-card
+      cover="https://nest-vue-uni-demo.oss-cn-shanghai.aliyuncs.com/1%20%2827%29.JPG"
+      title="Title"
       id="1"
       count="1074"
       author="MM老师"
@@ -10,7 +10,12 @@
       @click="popId"
       imgHeight="100"
       icon=""
-    ></yu-card>
+    ></xzt-card> -->
+
+    <xzt-dialog>
+
+      4444
+    </xzt-dialog>
   </div>
 </template>
 

@@ -1,7 +1,7 @@
 <template>
   <!-- 
-  * picture String
-  * name String 标题
+  * cover String
+  * title String 标题
     imgHeight string 图片高度（px）
     id Number 对应的id
     count String 购买/观看人数
@@ -12,10 +12,10 @@
   -->
   <div class="itemCard shadow-card bg-white text-dark-1 mb-3" :class="{ fill: fill }" @click="popId">
     <div :style="`height:${imgHeight}px;overflow:hidden`">
-      <img :src="picture" width="100%" />
+      <img :src="cover" width="100%" />
     </div>
     <div class="d-flex jc-between fs-md mt-2 mx-2">
-      <span class="text-ellipsis">{{ name }}</span>
+      <span class="text-ellipsis">{{ title }}</span>
       <span class="text-ellipsis text-right mr-2" style="width:4em">{{ author }}</span>
     </div>
     <div class="d-flex jc-between my-1 py-1 ml-2 mr-2">
@@ -30,10 +30,10 @@
 
 <script>
 export default {
-  name: 'yu-card',
+  name: 'xzt-card',
   props: {
-    picture: { type: String, required: true },
-    name: { type: String, required: true },
+    cover: { type: String, required: true },
+    title: { type: String, required: true },
     id: String,
     count: String,
     author: String,
@@ -49,7 +49,7 @@ export default {
   },
   methods: {
     popId() {
-      this.$emit('click', [this.id, this.name])
+      this.$emit('click', [this.id, this.title])
     },
   },
 }

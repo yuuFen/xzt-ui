@@ -1,4 +1,5 @@
 package.copy.json
+# 这是复制 .gitignore 里面的
 .DS_Store
 node_modules
 /dist
@@ -19,4 +20,14 @@ yarn-error.log*
 *.ntvs*
 *.njsproj
 *.sln
-*.sw?
+*.sw*
+
+# 以下是新增的
+# 要忽略目录和指定文件
+examples/
+packages/
+public/
+vue.config.js
+babel.config.js
+*.map
+*.html
