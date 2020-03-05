@@ -1,9 +1,9 @@
 import Card from './card'
-import Dialog from './dialog'
+import Slide from './slide'
 
 const components = {
   Card,
-  Dialog,
+  Slide,
 }
 
 const install = function(Vue) {

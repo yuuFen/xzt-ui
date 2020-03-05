@@ -1,10 +1,15 @@
 import Vue from 'vue'
 import App from './App.vue'
 
-import xztUi from '../packages/index'
+import XztUi from '../packages/index'
 import '../packages/index.scss'
+Vue.use(XztUi)
 
-Vue.use(xztUi)
+
+import MuseUI from 'muse-ui';
+import 'muse-ui/dist/muse-ui.css';
+Vue.use(MuseUI);
+
 
 Vue.config.productionTip = false
 

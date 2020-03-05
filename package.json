@@ -3,7 +3,9 @@
   "version": "0.1.0",
   "description": "基于 vue-cli3 的 UI 组件库",
   "main": "lib/xzt-ui.umd.min.js",
-  "keywords": ["xzt-ui"],
+  "keywords": [
+    "xzt-ui"
+  ],
   "private": false,
   "license": "MIT",
   "scripts": {
@@ -14,6 +16,7 @@
   },
   "dependencies": {
     "core-js": "^3.6.4",
+    "muse-ui": "^3.0.2",
     "vue": "^2.6.11"
   },
   "devDependencies": {
